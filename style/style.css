@@ -1,0 +1,15 @@
+.page-container {
+    border: 5px blue solid;
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    background-image:url("../img/bunny");
+    transition: transform 5s ease-in-out;
+
+}
+
+.page-container:hover {
+    transform: rotate(1080deg);
+}
